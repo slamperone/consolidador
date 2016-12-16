@@ -45,7 +45,7 @@
      ?>
 </head>
 
-<body class="lock-screen">
+<body class="lock-screen bg_style_2">
 
     <div class="main-ls">
         <div class="logo">

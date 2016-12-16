@@ -12,8 +12,8 @@ class Consolidar extends CI_Controller {
 	public function index() {
 		$data['page_title'] = 'Consolidador de contablidad';
 		$data['page_subtitle'] = 'extrae los datos de todas las sociedades de sap y consolida la información';
-		//$data['jsFunc']     = 'Index';
-		$data['scriptsBot'] = array(//'js/index.js',
+		$data['jsFunc']     =  array('Main',/*'TableData','FormElements',*/ );
+		$data['scriptsLoc'] = array(//'js/index.js',
 			/*"bower/Flot/jquery.flot.js",
 		"bower/Flot/jquery.flot.pie.js",
 		"bower/Flot/jquery.flot.resize.js",

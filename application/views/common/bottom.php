@@ -45,8 +45,8 @@
      ?>
     <!-- end: MAIN JAVASCRIPTS -->
     <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->     
-<?php if ($scriptsBot){
-     foreach ($scriptsBot as $plus) {
+<?php if ($scriptsLoc){
+     foreach ($scriptsLoc as $plus) {
         echo '<script type="text/javascript" src="'.base_url('assets/'.$plus).'"></script>';
     }
 }
@@ -54,9 +54,11 @@
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
     <script>
         jQuery(document).ready(function() {
-            Main.init();
             <?php if (isset($jsFunc)){
-                echo $jsFunc.".init();";
+                
+                    foreach ($jsFunc as $item) {
+                    echo $item.".init();";
+                }
             }
             ?>
         });

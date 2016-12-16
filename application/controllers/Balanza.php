@@ -12,8 +12,8 @@ class Balanza extends CI_Controller {
 	public function index() {
 		$data['page_title'] = 'Balanzas';
 		$data['page_subtitle'] = 'muestra el balance de las sociedades';
-		//$data['jsFunc']     = 'Index';
-		$data['scriptsBot'] = array(//'js/index.js',
+		$data['jsFunc']     =  array('Main',/*'TableData','FormElements',*/ );
+		$data['scriptsLoc'] = array(//'js/index.js',
 			/*"bower/Flot/jquery.flot.js",
 		"bower/Flot/jquery.flot.pie.js",
 		"bower/Flot/jquery.flot.resize.js",

@@ -13,8 +13,8 @@ class Dashboard extends CI_Controller {
 		$data['page_title'] = 'Tablero pincipal';
 		$data['page_subtitle'] = 'Vista general del sitio';
 		$data['numSecc']     = 1;
-		//$data['jsFunc']     = 'Index';
-		$data['scriptsBot'] = array(//'js/index.js',
+		$data['jsFunc']     =  array('Main',/*'TableData','FormElements',*/ );
+		$data['scriptsLoc'] = array(//'js/index.js',
 			/*"bower/Flot/jquery.flot.js",
 		"bower/Flot/jquery.flot.pie.js",
 		"bower/Flot/jquery.flot.resize.js",

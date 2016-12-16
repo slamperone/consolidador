@@ -12,8 +12,8 @@ class Poliza extends CI_Controller {
 	public function index() {
 		$data['page_title'] = 'Polizas';
 		$data['page_subtitle'] = 'muestra las polizas por periodo o rango';
-		//$data['jsFunc']     = 'Index';
-		$data['scriptsBot'] = array(//'js/index.js',
+		//$data['jsFunc']     =  array('TableData','FormElements', );
+		$data['scriptsLoc'] = array(//'js/index.js',
 			/*"bower/Flot/jquery.flot.js",
 		"bower/Flot/jquery.flot.pie.js",
 		"bower/Flot/jquery.flot.resize.js",

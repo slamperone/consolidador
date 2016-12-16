@@ -18,7 +18,7 @@ $menu = array(
                 'link' => 'poliza',
      ),
      array('title' => 'Auxiliar ctas',
-            'icon' => 'fa fa-newspaper-o',
+            'icon' => 'fa fa-book fa-fw',
                 'link' => 'auxiliar',
      ),
      array('title' => 'Consolidar',

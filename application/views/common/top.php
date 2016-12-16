@@ -42,6 +42,12 @@
 						}
     	echo ' href="'.base_url('assets/'.$estilo).'" />';
     }
+
+    if (isset($estilosLoc)) {
+             foreach ($estilosLoc as $estilo) {
+            echo '<link type="text/css" rel="stylesheet" href="'.base_url('assets/'.$estilo).'" />';
+            }
+    }
      ?>
 </head>
 <body>
