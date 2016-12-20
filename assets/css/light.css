@@ -6,19 +6,12 @@
 /* THEME: black and white */
 /* THEME: green */
 /* THEME: navy */
-.dentro{
-  background-image: url(../images/menu-back2.jpg);
-  background-size: 438px;
-  background-position:left;
-  background-repeat: no-repeat; 
-}
-
 .main-container,
 .main-navigation,
 ul.main-navigation-menu > li > ul.sub-menu,
 .navigation-small ul.main-navigation-menu > li > ul.sub-menu {
   /*background-color: whitesmoke;*/
-   background-color: rgba(255,255,255, .2);!important;
+   background-color: rgba(255,255,255, .4);!important;
 }
 
 .layout-boxed header, .layout-boxed .main-container, .layout-boxed .footer {

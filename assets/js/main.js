@@ -1,3 +1,4 @@
+
 // global variables
 var isIE8 = false;
 var isIE9 = false;

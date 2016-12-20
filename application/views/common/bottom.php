@@ -15,7 +15,7 @@
         </div>
     </div>
     <!-- end: FOOTER -->
-    
+    </div><!-- end: conCuchara-->
      <!-- start: MAIN JAVASCRIPTS -->
     <!--[if lt IE 9]>
             <script src="<?= base_url('assets/bowers/respond/dest/respond.min.js'); ?>"></script>
@@ -25,8 +25,8 @@
     <!--[if gte IE 9]><!-->
     <script type="text/javascript" src="<?= base_url('assets/bower/jquery/dist/jquery.min.js'); ?>"></script>
     <!--<![endif]-->
+    <?php
 
-    <?php 
     $scripts = array('bower/jquery-ui/jquery-ui.min.js',
     'bower/bootstrap/dist/js/bootstrap.min.js',
     'bower/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
@@ -54,6 +54,7 @@
     <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
     <script>
         jQuery(document).ready(function() {
+
             <?php if (isset($jsFunc)){
                 
                     foreach ($jsFunc as $item) {
@@ -62,8 +63,25 @@
             }
             ?>
         });
-    </script>
 
+
+  Pace.on('start', function(e){
+       // console.log('Pace.start')
+    });
+  Pace.on('done', function(e){
+        //console.log('Pace.start')
+        $('.conCuchara').fadeIn(1000);
+        $('.dentro').css({
+            'background-image':'<?= base_url('assets/images/menu-back2.jpg'); ?>',
+            'background-size': '438px',
+            'background-position':'left',
+            'background-repeat': 'no-repeat', 
+        });
+
+    });
+    Pace.start()
+
+    </script>
 </body>
 
 </html>

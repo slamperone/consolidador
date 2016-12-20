@@ -24,6 +24,6 @@ class Auxiliar extends CI_Controller {
 		"plugin/jquery.sparkline.min.js",*/
 		);
 
-		$this->load->view('misc/dashboard', $data);
+		$this->load->view('auxiliar', $data);
 	}
 }

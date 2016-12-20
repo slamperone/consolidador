@@ -20,8 +20,10 @@
     <!-- start: MAIN CSS -->
     <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Raleway:400,100,200,300,500,600,700,800,900/" />
 
+    <script type="text/javascript" src="<?= base_url('assets/js/pace.min.js'); ?>"></script>
     <?php 
-    $estilos = array('bower/bootstrap/dist/css/bootstrap.css',
+    $estilos = array('css/precarga.css',
+                        'bower/bootstrap/dist/css/bootstrap.css',
 					    'bower/font-awesome/css/font-awesome.min.css',
 					    'bower/iCheck/skins/all.css',
 					    'bower/perfect-scrollbar/css/perfect-scrollbar.min.css',
@@ -31,6 +33,7 @@
 					    'css/main-responsive.min.css',
 					    'css/print.min.css',
 					    'css/light.css',
+
 					); 
 
     foreach ($estilos as $estilo) {
@@ -51,6 +54,7 @@
      ?>
 </head>
 <body class="dentro">
+<div class="conCuchara">
  <!-- start: HEADER -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <!-- start: TOP NAVIGATION CONTAINER -->
@@ -62,7 +66,7 @@
             </button>
                 <!-- end: RESPONSIVE MENU TOGGLER -->
                 <!-- start: LOGO -->
-                <a class="navbar-brand" href="<?= base_url('dashboard'); ?>">
+                <a class="navbar-brand" href="<?= site_url('dashboard'); ?>">
                  P<i class="fa fa-pie-chart" aria-hidden="true"></i>RTAL DE CONSOLIDACIÓN
             </a>
                 <!-- end: LOGO -->

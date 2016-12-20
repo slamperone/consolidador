@@ -1663,7 +1663,8 @@ fieldset[disabled] .btn-red:hover, fieldset[disabled] .btn-red:focus, fieldset[d
 .main-navigation {
   padding: 0;
   max-height: none !important;
-  z-index: 1000; }
+  z-index: 1000; 
+}
 
 .sidebar-fixed .wrap-menu {
   overflow: hidden;
@@ -4620,13 +4621,48 @@ body.lock-screen .user-info {
               font-size: 15px;
                min-width: 100px; 
             }
+
+       
 }
 
  @media screen and (max-width: 760px) {
+.main-container,
+.main-navigation,
+ul.main-navigation-menu > li > ul.sub-menu,
+.navigation-small ul.main-navigation-menu > li > ul.sub-menu {
+  /*background-color: whitesmoke;*/
+   /*background-color: rgba(255,255,255,1);!important;*/
+   background-color: #D2FF00;
+} 
+
     .top_top{
       background: rgba(255,255,255, .8);
     }
+
 }
+
+ @media screen and (min-width: 761px) {
+    .main-container,
+    .main-navigation,
+    ul.main-navigation-menu > li > ul.sub-menu,
+    .navigation-small ul.main-navigation-menu > li > ul.sub-menu {
+            /*background-color: whitesmoke;*/
+             /*background-color: rgba(255,255,255,1);!important;*/
+             background-color: #EA00FF;
+         }      
+ }
+
 .footer{
   background: #FFF !important;
+}
+
+.conCuchara{
+  display: none;
+  background-image: url(../images/menu-back2.jpg);  
+  background-size: 438px;
+  background-position:left;
+  background-repeat: no-repeat; 
+}
+.dentro{
+
 }

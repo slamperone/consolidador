@@ -57,7 +57,7 @@
             <p>
                Capture sus ceredenciales para acceder al sistema
             </p>
-            <form class="form-login" action="">
+            <form class="form-login" action="<?= site_url('dashboard'); ?>" method="POST">
                 <div class="errorHandler alert alert-danger no-display">
                     <i class="fa fa-remove-sign"></i> Usuario y/o contraseña inválido(s) reintente
                 </div>
