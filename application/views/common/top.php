@@ -50,11 +50,11 @@
     }
      ?>
 </head>
-<body>
+<body class="dentro">
  <!-- start: HEADER -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <!-- start: TOP NAVIGATION CONTAINER -->
-        <div class="container">
+        <div class="container top_top">
             <div class="navbar-header">
                 <!-- start: RESPONSIVE MENU TOGGLER -->
                 <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
@@ -203,9 +203,9 @@
                         </li>
                         <!-- end: USER DROPDOWN -->
                         <!-- start: PAGE SIDEBAR TOGGLE -->
-                        <li>
+                        <!--li>
                             <a class="sb-toggle" href="#"><i class="fa fa-outdent"></i></a>
-                        </li>
+                        </li-->
                         <!-- end: PAGE SIDEBAR TOGGLE -->
                 </ul>
                 <!-- end: TOP NAVIGATION MENU -->

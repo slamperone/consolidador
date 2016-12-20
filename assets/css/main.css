@@ -322,7 +322,8 @@ a [class^="icon-"], a [class*=" icon-"] {
 .footer {
   font-size: 12px;
   padding: 8px 20px 5px;
-  position: relative; }
+  position: relative;
+}
 
 .footer-inner {
   float: left; }
@@ -740,8 +741,7 @@ a.bricky:hover {
     font-family: "Raleway", sans-serif;
     font-size: 25px;
     min-width: 210px; }
-    .navbar > .container .navbar-brand i {
-      font-size: 20px; }
+
 
 .logo {
   padding: 14px 10px 12px;
@@ -4611,3 +4611,22 @@ body.lock-screen .user-info {
 
 .tabs-right > .nav-tabs > li {
   float: none; }
+
+  /******************************************
+  plus 
+  *******************************************/
+  @media screen and (max-width: 420px) {
+     .navbar > .container .navbar-brand {
+              font-size: 15px;
+               min-width: 100px; 
+            }
+}
+
+ @media screen and (max-width: 760px) {
+    .top_top{
+      background: rgba(255,255,255, .8);
+    }
+}
+.footer{
+  background: #FFF !important;
+}
